@@ -1,0 +1,6 @@
+[book]
+title = "Recommended modules"
+authors = ["masinc"]
+language = "jp"
+multilingual = false
+src = "src"
