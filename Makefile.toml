@@ -1,0 +1,7 @@
+[tasks.build]
+command = "mdbook"
+args = ["build"]
+
+[tasks.serve]
+command = "mdbook"
+args = ["serve", "--open"]
