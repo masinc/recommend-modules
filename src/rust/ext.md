@@ -13,7 +13,8 @@
 
 コマンドラインパーサー
 
-- [API](https://docs.rs/clap/3.2.8/clap/)
+- https://docs.rs/clap/latest/clap/
+- https://github.com/clap-rs/clap/tree/master/examples
 
 ## [Serde](https://github.com/serde-rs/serde)
 
@@ -30,5 +31,48 @@
 
 乱数生成モジュール
 
-- [API](https://docs.rs/rand/0.8.5/rand/)
+- [API](https://docs.rs/rand/latest/rand/)
 - [The Rust Rand Book](https://rust-random.github.io/book/)
+
+## [fnv](https://github.com/servo/rust-fnv)
+
+https://crates.io/crates/fnv
+
+Fowler-Noll-Voハッシュを利用したHashMapとHashSet 標準のHashMapより安全ではないが高速
+
+## Crossbeam
+
+## Rayon
+
+## [maplit](https://github.com/bluss/maplit)
+
+https://crates.io/crates/maplit
+
+コンテナ(HashMap, BTreeMap, HashSet, BTreeSet)生成マクロ
+
+https://docs.rs/maplit/latest/maplit/
+
+## [surf](https://github.com/http-rs/surf)
+
+[![](https://camo.githubusercontent.com/bf286d3f1b5d8f3ae6ac2d0d4648ba091aef7e4d79924a3ef9f674c9124cb0cd/68747470733a2f2f696d672e736869656c64732e696f2f6372617465732f762f737572662e7376673f7374796c653d666c61742d737175617265)](https://crates.io/crates/surf)
+
+HTTPクライアント
+
+https://docs.rs/surf/latest/surf/
+
+## [reqwest](https://github.com/seanmonstar/reqwest)
+
+[![](https://camo.githubusercontent.com/35029fdc6d31cbd92d2e397447cb20ca68fceff48b0432bdddd6d5e4defc27f7/68747470733a2f2f696d672e736869656c64732e696f2f6372617465732f762f726571776573742e737667)](https://crates.io/crates/reqwest)
+
+HTTPクライアント
+
+https://docs.rs/reqwest/latest/reqwest/
+
+## [bindgen](https://github.com/rust-lang/rust-bindgen)
+
+[![](https://camo.githubusercontent.com/f55c8ef03a94f345f437e58c2dce71bf8fc4b8415139ba02dfd7e3df6463de77/68747470733a2f2f696d672e736869656c64732e696f2f6372617465732f762f62696e6467656e2e737667)](https://crates.io/crates/bindgen)
+
+FFI
+
+- https://rust-lang.github.io/rust-bindgen/
+- https://docs.rs/bindgen/latest/bindgen/
