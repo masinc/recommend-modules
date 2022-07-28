@@ -5,20 +5,20 @@ name: Textlint
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use pnpm
-      uses: actions/setup-node@v3
-      with:
-        node-version: lts
-        cache: 'pnpm'
-    - run: pnpm run textlint
+      - uses: actions/checkout@v3
+      - name: Use pnpm
+        uses: actions/setup-node@v3
+        with:
+          node-version: lts
+          cache: pnpm
+          architecture: x64
+      - run: pnpm run textlint
