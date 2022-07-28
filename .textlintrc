@@ -1,5 +1,9 @@
 {
-  "rules": {
-    "preset-smarthr": true
-  }
+    "rules": {
+        "preset-smarthr": {
+            "ja-space-between-half-and-full-width": {
+                "space": "always"
+            }
+        }
+    }
 }
