@@ -1,0 +1,26 @@
+{
+  "name": "recommend-modules",
+  "version": "0.0.0",
+  "description": "https://masinc.github.io/knowledge/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masinc/knowledge.git"
+  },
+  "keywords": [],
+  "author": "masinc <masinc000@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masinc/knowledge/issues"
+  },
+  "homepage": "https://github.com/masinc/knowledge#readme",
+  "devDependencies": {
+    "textlint": "^12.2.1"
+  },
+  "dependencies": {
+    "textlint-rule-preset-smarthr": "^1.14.2"
+  }
+}

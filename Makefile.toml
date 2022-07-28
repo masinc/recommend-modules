@@ -5,3 +5,7 @@ args = ["build"]
 [tasks.serve]
 command = "mdbook"
 args = ["serve", "--open"]
+
+[tasks.lint]
+command = "pnpm"
+args = ["textlint", "README.md", "src/"]
