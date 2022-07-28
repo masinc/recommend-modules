@@ -10,4 +10,4 @@ args = ["serve", "--open"]
 
 [tasks.lint]
 command = "pnpm"
-args = ["textlint", "README.md", "src/"]
+args = ["run", "lint"]
