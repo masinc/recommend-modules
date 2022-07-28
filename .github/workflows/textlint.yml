@@ -19,6 +19,4 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "lts/*"
-          cache: npm
-          architecture: x64
       - run: npm run textlint
