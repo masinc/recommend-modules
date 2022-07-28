@@ -1,3 +1,3 @@
-# recommend-modules
+# knowledge
 
-https://masinc.github.io/recommend-modules/
+https://masinc.github.io/knowledge/
