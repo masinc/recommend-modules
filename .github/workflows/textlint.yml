@@ -20,4 +20,4 @@ jobs:
         with:
           node-version: "lts/*"
       - run: npm install
-      - run: npm textlint
+      - run: npm run lint
